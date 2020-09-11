@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 import { Route, Switch } from 'react-router-dom';
 import { withRouter } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
@@ -8,7 +7,7 @@ import Header from './headers/Header';
 
 import AboutMeContainer from './components/AboutMeContainer';
 import Resume from './components/ResumeContainer';
-import Projects from './components/ProjectContainer';
+import Projects from './components/ProjectsContainer';
 
 const App = () => {
   // Initialize history
