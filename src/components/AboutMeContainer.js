@@ -8,7 +8,7 @@ const AboutMeContainer = (props) => {
     let githublogo = require("../images/github.png");
 
     return (
-        <div className="aboutmepage">
+        <div className="aboutmecontainer">
             <div className="aboutme">
                 <h1>About Me</h1>
                 <h5>Quick and eager web developer with full stack experience using Ruby, Ruby on Rails, Javascript, React, and SQL. I can adapt easily to new situations and stay focused on the goal which will be a strong addition to any team. Ready to engage with your organization to problem solve and leverage my skills and knowledge to continue to grow.</h5>

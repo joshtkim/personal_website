@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { withRouter } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
+import './Style.css';
 
 import Header from './headers/Header';
 

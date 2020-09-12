@@ -1,0 +1,23 @@
+
+
+/* Main */
+
+.maincontainer {
+  width: 100vw;
+  height: 100%;
+}
+
+
+/* About Me Container */
+.aboutmecontainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+
+.logoimage {
+  height: 40px;
+  margin: 20px;
+}
