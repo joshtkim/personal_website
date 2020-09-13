@@ -21,3 +21,12 @@
   height: 40px;
   margin: 20px;
 }
+
+/* Resume Container */
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
