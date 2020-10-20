@@ -10,7 +10,7 @@ const AboutMeContainer = (props) => {
     return (
         <div className="aboutmecontainer">
             <div className="aboutme">
-                <h1>About Me</h1>
+                <h1 className="aboutmeheader">About Me</h1>
                 <h5>Quick and eager web developer with full stack experience using Ruby, Ruby on Rails, Javascript, React, and SQL. I can adapt easily to new situations and stay focused on the goal which will be a strong addition to any team. Ready to engage with your organization to problem solve and leverage my skills and knowledge to continue to grow.</h5>
                 <h5>I attended Flatiron School to gain the skills needed to pursue a new career as a software engineer.</h5>
                 <h5>In my free time I enjoy spending time doing activities such as playing basketball, flag football, hiking, grilling, and computer games. </h5>
