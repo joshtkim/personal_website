@@ -6,7 +6,7 @@ const ProjectContainer = (props) => {
     return (
         <div className="project">
             <div className="medinfo4u">
-                <h1>MedInfo4U Project</h1>
+                <h1>MedInfo4U</h1>
                 <p>An app for patients/nurses/doctors to help make hospital visits simpler and more efficient. All 3 users are able to log in to their respective portals to see previous/current appointments and informatino regarding the appointments. It is built with a React frontend and Rails backend.</p>
                 <ReactPlayer 
                 className="video"
