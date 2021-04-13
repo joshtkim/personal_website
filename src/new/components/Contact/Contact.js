@@ -2,8 +2,6 @@ import React from 'react'
 import { Typography } from '@material-ui/core';
 import './Contact.css'
 import data from '../../info/data'
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GithubIcon from '@material-ui/icons/GitHub';
 
 const Contact = () => {
   console.log(data.socials)

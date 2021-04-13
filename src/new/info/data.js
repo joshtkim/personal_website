@@ -1,6 +1,6 @@
 import React from 'react';
-import linkedinlogo from '../assets/images/linkedin.png'
-import githublogo from '../assets/images/github.png'
+import linkedinlogo from '../images/linkedin.png'
+import githublogo from '../images/github.png'
 
 const data = {
 
