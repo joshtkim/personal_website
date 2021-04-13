@@ -4,11 +4,11 @@ import { withRouter } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 import './Style.css';
 
-import Header from './headers/Header';
+import Header from './old/headers/Header';
 
-import AboutMeContainer from './components/AboutMeContainer';
-import Resume from './components/ResumeContainer';
-import Projects from './components/ProjectsContainer';
+import AboutMeContainer from './old/components/AboutMeContainer';
+import Resume from './old/components/ResumeContainer';
+import Projects from './old/components/ProjectsContainer';
 
 const App = () => {
   // Initialize history
