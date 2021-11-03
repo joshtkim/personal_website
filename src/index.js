@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NewApp from './NewApp';
 import { BrowserRouter } from 'react-router-dom'
+import NewAppv2 from './NewAppv2';
 
 ReactDOM.render(
   <BrowserRouter>
-    <NewApp />
+    <NewAppv2 />
   </BrowserRouter>,
   document.getElementById('root')
 );
