@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom'
 import NewAppv2 from './NewAppv2';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <React.StrictMode>
     <NewAppv2 />
-  </BrowserRouter>,
+  </React.StrictMode>,
   document.getElementById('root')
 );

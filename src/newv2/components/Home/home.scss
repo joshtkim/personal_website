@@ -1,0 +1,52 @@
+@import '../../../global.scss';
+
+.home {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	@include mobile{
+		flex-direction: column;
+		align-item: center;
+	}
+
+	.main-info{
+		margin-bottom: 10rem;
+		
+		> h1{
+			font-size: 6rem;
+
+			@include mobile{
+				font-size: 2rem;
+			}
+		}
+
+		.divider{
+			border: 1px solid black;
+			margin: 5rem 0 5rem 0;
+
+			@include mobile{
+				margin: 1rem 0 1rem 0;
+			}
+		}
+
+		.contact-link{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+
+			.logoimage {
+				height: 60px;
+				margin: 20px;
+
+				@include mobile{
+					height: 30px;
+					margin: 5px;
+				}
+			}
+		}
+	}
+}

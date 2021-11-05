@@ -1,0 +1,84 @@
+@import '../../../global.scss';
+
+.project {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	@include mobile{
+		flex-direction: column;
+		align-item: center;
+		margin-top: 7rem
+	}
+
+	#carouselExampleIndicators{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		flex-direction: column;
+		background: url('../../../../src/newv2/pexels-negative-space-169573.jpg') no-repeat;
+		background-size: cover;
+		background-position: center;
+		
+		> h1 {
+			color: white;
+			font-size: 5rem;
+			
+			@include mobile{
+				font-size: 2rem;
+			}
+		}
+
+		.carousel-indicators{
+			height: 5px !important;
+		}
+
+		.carousel-inner{
+			margin:5rem;
+			display: flex;
+			justify-content: space-evenly;
+			padding-right: 20rem;
+		}
+	}
+
+	.card{
+		width: 60rem;
+		border-radius: 1rem;
+
+		@include mobile{
+			width: 20rem;
+		}
+
+		.card-body{
+			text-align: center;
+			font-size: x-large;
+
+			@include mobile{
+				font-size: 1rem;
+			}
+
+			.card-title{
+				font-size: 5rem;
+
+				@include mobile{
+					font-size: 2rem;
+				}
+			}
+		}
+	}
+}
+
+.video-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+  }
+  
+  .video-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+  }

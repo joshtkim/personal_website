@@ -1,0 +1,110 @@
+// /*********************NavBar********************/
+
+// .navbar-brand {
+// 	font-size: 2rem !important;
+// }
+
+// .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+//   border-bottom: .2rem solid white;
+// }
+
+// .navbar-nav > li > a:hover {
+//   border-bottom: .2rem solid white;
+// }
+
+// /*********************Header********************/
+
+// .body {
+// 	position: relative;
+// 	background: url('../src/newv2/pexels-negative-space-169573.jpg') no-repeat;
+// 	background-size: cover;
+// 	background-position: center;
+// 	height: 100%;
+// }
+
+// .main-info {
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: center;
+// 	align-items: center;
+// 	text-align: center;
+// }
+
+// #project {
+// 	height: 50rem;
+// 	background:black;
+// }
+
+// #contact {
+// 	height: 50rem;
+// 	background:pink;
+// }
+
+// #about {
+// 	height: 50rem;
+// 	background:green;
+// }
+
+// #home {
+// 	height: 50rem;
+// 	background:white;
+// }
+
+/*************************** SCSS Styling ***************************/
+
+body{
+	background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  }
+
+.app{
+	height: 100vh;
+
+	// .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+//   border-bottom: .2rem solid white;
+// }
+
+// .navbar-nav > li > a:hover {
+//   border-bottom: .2rem solid white;
+// }
+
+	.navbar{
+		width: 100%;
+		height: 5rem;
+		padding: 0 3rem 0 3rem;
+		font-size: 1.5rem;
+		top: 0;
+		z-index: 2;
+
+		.navbar-nav > li{
+			padding:0 .5rem 0 .5rem;
+		}
+
+		.navbar-nav > li > a.active, .navbar-nav > li > a:focus, .navbar-nav > li > a:hover{
+			border-bottom: .2rem solid white;
+		} 
+
+		.navbar-collapse.show{
+			--bs-bg-opacity: 1;
+    		background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+		}
+	}
+
+	.body{
+		width: 100%;
+		height: calc(100vh - 70px);
+		position: relative;
+		top: 70px;
+		
+
+		> *{
+			width: 100vw;
+			height: calc(100vh - 70px);
+			padding-top: 5rem;
+		}
+	}
+}
+  

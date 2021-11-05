@@ -1,0 +1,39 @@
+@import '../../../global.scss';
+
+.about{
+  	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	@include mobile{
+		flex-direction: column;
+		align-item: center;
+	}
+
+  .about-info{
+    width: 75%;
+
+	@include mobile{
+		width: 100%;
+	}
+
+	.about{
+		font-size: 1.75rem;
+
+		@include mobile{
+			font-size: 1.25rem;
+		}
+	}
+
+	.hobbies{
+		padding-top: 5rem;
+		font-size: 1.75rem;
+
+		@include mobile{
+			font-size: 1.25rem;
+		}
+	}
+  }
+}
